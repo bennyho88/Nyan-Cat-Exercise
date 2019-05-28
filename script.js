@@ -13,6 +13,7 @@ document.getElementById("cat").addEventListener("click", myMove );
 function myMove() {
     
     var audio = new Audio("Nyan.mp3")
+    audio.play();
     
     var elem = document.getElementById("nyanimg");   
     var pos = 0;
@@ -20,12 +21,15 @@ function myMove() {
     function frame() {
       if (pos >= 100) {
         clearInterval(id);
-        audio.play();
+        
       } else {
         pos+= 0.1; 
         elem.style.top = pos + '%'; 
         elem.style.left = pos + '%'; 
+        
       }
     }
+
+    document.getElementsByClass("background-image").style.backgroundImage = "url(background.png)";
   }
 
