@@ -1,0 +1,23 @@
+#cat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 300px;
+}
+
+#nyanimg {
+    transform: rotate(45deg);
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    
+}
+
+body {
+    background-image: url(background.png);
+}
+
+
+
+
