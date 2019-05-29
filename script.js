@@ -30,7 +30,7 @@ function myMove() {
   function myMove() {
     document.getElementById("cat").style.display = "none";
     var backgroundI = document.body.style.backgroundImage = "url('background.png')";
-    var audio = new Audio("Nyan.mp3");
+    var audio = new Audio("Nyan-2.mp3");
     audio.play();
 
     var elem = document.getElementById("nyanimg");
